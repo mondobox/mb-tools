@@ -3,7 +3,7 @@ require_once 'protect.php';
 Protect\with('form.php', 'XXX', scopeABC);
 ?>
 <!DOCTYPE html>
-<html>
+<html> <!--- //NOSONAR --->
 <head>
 <title>Send SMS to MondoBox Users</title>
 <link href="style.css" rel="stylesheet" type="text/css">
